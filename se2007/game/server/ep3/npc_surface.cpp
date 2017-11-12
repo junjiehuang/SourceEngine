@@ -132,7 +132,7 @@ void CNPC_Surface::Spawn()
 
 	BaseClass::Spawn();
 
-	SetModel( "models/Hydra.mdl" ); // ep3 hydra ???
+	SetModel( "models/Hydra.mdl" );
 
 	SetHullType(HULL_SMALL_CENTERED);
 	SetHullSizeNormal();
