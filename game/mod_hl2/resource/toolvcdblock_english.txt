@@ -1,0 +1,21 @@
+﻿"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+"VcdBlockNoFile"		"No .VMF loaded"
+"VcdBlockProperties"		"Entity Properties"
+"VcdBlockEntityReport"		"Entity Report"
+"VcdBlockDeleteObjects"		"Delete Objects?"
+"VcdBlockDeleteObjectsMsg"	"Are you sure you want to delete the selected objects?"
+"VcdBlockProperties"		"Properties"
+"VcdBlockEntityReport"		"Entity Report"
+"VcdBlockViewDefault"		"Default Layout"
+"VcdBlockReload"			"Reload map"
+"VcdBlockReloadFromSave"	"Reload from quicksave"
+"VcdBlockAddNewNodes"		"Add New Info Targets"
+"VcdBlockAddNewNodesHelp"	"Enter info target creation mode"
+"VcdBlockCopyEditsToVMF"	"Copy Edits to VMF"
+"VcdBlockRememberPosition"	"Remember Player Position"
+} 
+}  

@@ -1,0 +1,13 @@
+﻿"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+"ActBusyNoFile"				"No actbusy file loaded"
+"ActBusyProperties"			"Properties"
+"ActBusyViewDefault"		"Default Layout"
+"ActBusyViewSequencePicker"	"Sequence Picker"
+"ActBusyNewActBusy"			"Create ActBusy"
+"ActBusyDeleteActBusy"		"Delete ActBusy"
+} 
+}  

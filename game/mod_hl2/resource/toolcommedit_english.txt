@@ -1,0 +1,19 @@
+﻿"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+"CommEditNoFile"		"No .TXT loaded"
+"CommEditProperties"		"Entity Properties"
+"CommEditEntityReport"		"Entity Report"
+"CommEditDeleteObjects"		"Delete Objects?"
+"CommEditDeleteObjectsMsg"	"Are you sure you want to delete the selected objects?"
+"CommEditProperties"		"Properties"
+"CommEditEntityReport"		"Entity Report"
+"CommEditViewDefault"		"Default Layout"
+"CommEditReload"		"Reload map"
+"CommEditReloadFromSave"	"Reload from quicksave"
+"CommEditAddNewNodes"		"Add New Commentary Nodes"
+"CommEditAddNewNodesHelp"	"Enter commentary node and info target creation mode"
+} 
+}  

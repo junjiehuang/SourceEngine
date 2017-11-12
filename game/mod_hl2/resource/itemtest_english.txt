@@ -1,0 +1,431 @@
+﻿"lang"
+{
+	"Language" "English" 
+	"Tokens"
+	{
+		"duplicate_file_title" "ERROR: Duplicate Geometry File"
+		"duplicate_file_text" "\nThe same geometry file cannot be loaded twice.\nSpecify a different geometry file.\n"
+
+		"steamid_error_title" "ERROR: Invalid Steam Id"
+		"steamid_error_text" "\nSteam Id cannot be determined.\nLaunch application via steam.\n"
+
+		"valid"		"VALID"
+		"invalid"	"INVALID"
+		"none"		""
+
+		"itemtest_wizard_global_title" "Specify Global Parameters"
+		"itemtest_wizard_global_info"
+			"
+			Specify the global parameters for the item
+
+			- Name must be non-empty
+
+			- Class must be all_class or one of the nine available classes:
+			- - demo, engineer, heavy, medic, pyro, scout, sniper, soldier, spy - -
+
+			- SteamId is computed automatically
+			"
+		"itemtest_wizard_global_valid" "Valid Global settings"
+		"itemtest_wizard_global_invalid" "Invalid Global settings"
+
+		"nameLabel" "Name"
+		"nameValid" "Valid item name specified"
+		"nameInvalid" "Invalid item name specified"
+		"classLabel" "Class"
+		"classValid" "Valid class specified"
+		"classInvalid" "Invalid class specified"
+		"steamLabel" "Steam Id"
+		"steamValid" "Valid Steam Id"
+		"steamInvalid" "Invalid Steam Id"
+		"autoSkinLabel" "bip_head"
+		"autoSkinCheckButtonText" "Auto Skin to bip_head bone"
+		"autoSkinValid" "Valid Auto Skin Setting"
+		"autoSkinInvalid" "Invalid Auto Skin Setting"
+
+		"itemtest_wizard_geometry_title"	"Select Geometry Files"
+		"itemtest_wizard_geometry_info"
+			"
+			Select the geometry files that comprise the item
+
+			- Geometry files can be DMX, OBJ or SMD files
+
+			- There must be at least two LODs specified
+
+			- Each LOD must have fewer polygons than the previous LOD
+
+			- Each LOD must have some geometry in it
+			"
+
+		"itemtest_wizard_geometry_info_dev"
+			"
+			Select the geometry files that comprise the item
+
+			- Geometry files can be DMX, OBJ or SMD files
+
+			- There must be at least one LODs specified
+
+			- Each LOD must have fewer polygons than the previous LOD
+
+			- Each LOD must have some geometry in it
+			"
+
+		"itemtest_wizard_geometry_valid" "Valid Geometry files"
+		"itemtest_wizard_geometry_invalid" "Invalid Geometry files"
+
+		"LOD0Label"	"LOD 0"
+		"LOD0Valid" "Valid geometry file specified"
+		"LOD0InValid" "Invalid geometry file specified"
+
+		"LOD1Label"	"LOD 1"
+		"LOD1Valid" "Valid geometry file specified"
+		"LOD1InValid" "Invalid geometry file specified"
+
+		"LOD2Label"	"LOD 2"
+		"LOD2Valid" "Valid geometry file specified"
+		"LOD2InValid" "Invalid geometry file specified"
+
+		"LOD3Label"	"LOD 3"
+		"LOD3Valid" "Valid geometry file specified"
+		"LOD3InValid" "Invalid geometry file specified"
+
+		"LOD4Label"	"LOD 4"
+		"LOD4Valid" "Valid geometry file specified"
+		"LOD4InValid" "Invalid geometry file specified"
+
+		"LOD5Label"	"LOD 5"
+		"LOD5Valid" "Valid geometry file specified"
+		"LOD5InValid" "Invalid geometry file specified"
+
+		"LOD6Label"	"LOD 6"
+		"LOD6Valid" "Valid geometry file specified"
+		"LOD6InValid" "Invalid geometry file specified"
+
+		"LOD7Label"	"LOD 7"
+		"LOD7Valid" "Valid geometry file specified"
+		"LOD7InValid" "Invalid geometry file specified"
+
+		"LOD8Label"	"LOD 8"
+		"LOD8Valid" "Valid geometry file specified"
+		"LOD8InValid" "Invalid geometry file specified"
+
+		"LOD9Label"	"LOD 9"
+		"LOD9Valid" "Valid geometry file specified"
+		"LOD9InValid" "Invalid geometry file specified"
+
+		"LOD0Button"	"Browse for LOD 0 ..."
+		"LOD1Button"	"Browse for LOD 1 ..."
+		"LOD2Button"	"Browse for LOD 2 ..."
+		"LOD3Button"	"Browse for LOD 3 ..."
+		"LOD4Button"	"Browse for LOD 4 ..."
+		"LOD5Button"	"Browse for LOD 5 ..."
+		"LOD6Button"	"Browse for LOD 6 ..."
+		"LOD7Button"	"Browse for LOD 7 ..."
+		"LOD8Button"	"Browse for LOD 8 ..."
+		"LOD9Button"	"Browse for LOD 9 ..."
+
+		"LOD0Delete"	"X"
+		"LOD1Delete"	"X"
+		"LOD2Delete"	"X"
+		"LOD3Delete"	"X"
+		"LOD4Delete"	"X"
+		"LOD5Delete"	"X"
+		"LOD6Delete"	"X"
+		"LOD7Delete"	"X"
+		"LOD8Delete"	"X"
+		"LOD9Delete"	"X"
+
+		"itemtest_wizard_texture_title"	"Specify Textures"
+		"itemtest_wizard_texture_info"
+			"
+			Select the texture files that comprise the material
+			"
+
+		"itemtest_wizard_texture_valid"	"Texture data is valid"
+		"itemtest_wizard_texture_invalid"	"Texture data is invalid"
+
+		"VMT0Label"		"Material 0"
+		"VMT1Label"		"Material 1"
+		"VMT2Label"		"Material 2"
+		"VMT3Label"		"Material 3"
+		"VMT4Label"		"Material 4"
+		"VMT5Label"		"Material 5"
+
+		"VMT0Valid"		"Valid"
+		"VMT1Valid"		"Valid"
+		"VMT2Valid"		"Valid"
+		"VMT3Valid"		"Valid"
+		"VMT4Valid"		"Valid"
+		"VMT5Valid"		"Valid"
+
+		"VMT0Invalid"	"Invalid"
+		"VMT1Invalid"	"Invalid"
+		"VMT2Invalid"	"Invalid"
+		"VMT3Invalid"	"Invalid"
+		"VMT4Invalid"	"Invalid"
+		"VMT5Invalid"	"Invalid"
+
+		"MaterialLabel"			"Material Name"
+
+		"MaterialTypeLabel"		"Material Type"
+		"Primary"				"Primary"
+		"Secondary"				"Secondary"
+		"DuplicateOfPrimary"	"Duplicate of Primary"
+		"DuplicateOfSecondary"	"Duplicate of Secondary"
+
+		"CommonRedBlueLabel"	"Common / Red & Blue"
+		"Common"				"Common"
+		"RedAndBlue"			"Red & Blue"
+
+		"CommonTextureLabel"	"Common Texture"
+
+		"RedTextureLabel"		"Red Texture"
+
+		"BlueTextureLabel"		"Blue Texture"
+
+		"ColorAlphaLabel"		"Color Alpha Type"
+		"Nothing"				"Nothing"
+		"Transparency"			"Transparency"
+		"Paintable"				"Paintable"
+
+		"NormalMapLabel"		"Normal Map"
+
+		"NormalAlphaLabel"		"Normal Map Alpha Type"
+		"SpecPhong"				"Spec/Phong Map"
+
+		"BrowseButton"			"Browse ..."
+
+		"itemtest_wizard_final_title"	"Select Operation"
+		"itemtest_wizard_final_info"
+			"
+			Press the button of the action to be performed
+			"
+
+		"itemtest_wizard_final_valid"	""
+		"itemtest_wizard_final_invalid"	""
+
+		"GatherButton"			"Gather Content"
+		"GatherLabel"			""
+		"StudioMDLButton"		"Compile MDL"
+		"StudioMDLLabel"		""
+		"ZipButton"				"Organize Data, Compile MDL & Create Archive"
+		"ZipLabel"				""
+		"HLMVButton"			"Launch HLMV"
+		"HLMVLabel"				""
+
+		"ExploreMaterialContentButton"	"Explore Mat Content Dir"
+		"ExploreMaterialContentLabel"	""
+		"ExploreMaterialGameButton"		"Explore Mat Game Dir"
+		"ExploreMaterialGameLabel"		""
+		"ExploreModelContentButton"		"Explore Mdl Content Dir"
+		"ExploreModelContentLabel"		""
+		"ExploreModelGameButton"		"Explore Mdl Game Dir"
+		"ExploreModelGameLabel"			""
+
+		"TextEntry_Cut"			"Cut"
+		"TextEntry_Copy"		"Copy"
+		"TextEntry_Paste"		"Paste"
+		"FileOpenDialog_Open"		"Open"
+		"FileOpenDialog_Save"		"Save"
+		"FileOpenDialog_Select"		"Select"
+		"FileOpenDialog_Cancel"		"Cancel"
+		"FileOpenDialog_Look_in"	"Look in:"
+		"FileOpenDialog_File_Name"	"File name:"
+		"FileOpenDialog_Directory_Name"	"Directory name:"
+		"FileOpenDialog_File_Type"	"File type:"
+		"FileOpenDialog_Icon"		" "
+		"FileOpenDialog_Name"		"Name"
+		"FileOpenDialog_Type"		"Type"
+
+		"SysMenu_Minimize"		" Minimize "
+		"SysMenu_Maximize"		" Maximize "
+		"SysMenu_Close"			" Close "
+		"Frame_Untitled"		"Untitled"
+		"MessageBox_OK"			"OK"
+		"MessageBox_Cancel"		"Cancel"
+		"MessageBox_Yes"		"Yes"
+		"MessageBox_No"			"No"
+		"PropertyDialog_OK"		"OK"
+		"PropertyDialog_Cancel"		"Cancel"
+		"PropertyDialog_Apply"		"Apply"
+		"QueryBox_Cancel"		"Cancel"
+		"WizardPanel_Next"		"Next >"
+		"WizardPanel_Back"		"< Back"
+		"WizardPanel_Finish"		"Compile"
+		"WizardPanel_Cancel"		"Cancel"
+		"vgui_ok"			"OK"
+		"vgui_close"			"Close"
+		"vgui_Cancel"			"Cancel"
+		"vgui_select"			"Select"
+		"vgui_createfolder"		"Create Folder..."
+		"vgui_next"			"Next >"
+		"vgui_back"			"< Back"
+		"vgui_TimeLeftMinutesSeconds"	"%s1 minutes %s2 seconds"
+		"vgui_TimeLeftMinuteSeconds"	"%s1 minute %s2 seconds"
+		"vgui_TimeLeftMinutesSecond"	"%s1 minutes %s2 second"
+		"vgui_TimeLeftMinuteSecond"	"%s1 minute %s2 second"
+		"vgui_TimeLeftSeconds" 		"%s1 seconds"
+		"vgui_TimeLeftSecond" 		"%s1 second"
+		"vgui_TimeLeftMinutesSecondsRemaining"	"%s1 minutes %s2 seconds remaining"
+		"vgui_TimeLeftMinuteSecondsRemaining"	"%s1 minute %s2 seconds remaining"
+		"vgui_TimeLeftMinutesSecondRemaining"	"%s1 minutes %s2 second remaining"
+		"vgui_TimeLeftMinuteSecondRemaining"	"%s1 minute %s2 second remaining"
+		"vgui_TimeLeftSecondsRemaining" 	"%s1 seconds remaining"
+		"vgui_TimeLeftSecondRemaining" 		"%s1 second remaining"
+		"vgui_CreateDirectoryFail_Title"	"Create Directory - Error"
+		"vgui_CreateDirectoryFail_Info"		"Failed to create directory, drive is read-only."
+		"vgui_CreateDirectoryFail_AlreadyExists" "That folder already exists."
+
+		"TextEntry_Language"		"Language"
+		"TextEntry_ConversionMode"	"Conversion Mode"
+		"TextEntry_SentenceMode"	"Sentence Mode"
+
+		"IME_English"			"English"
+		"IME_Chinese"			"Chinese"
+		"IME_Korean"			"Korean"
+		"IME_Hiragana"			"Hiragana"
+		"IME_FullWidthKatakana"		"Full-width Katakana"
+		"IME_FullWidthAlphanumeric"	"Full-width Alphanumeric"
+		"IME_HalfWidthKatakana"		"Half-width Katakana"
+		"IME_HalfWidthAlphanumeric"	"Half-width Alphanumeric"
+
+		"IME_General"			"General"
+		"IME_BiasNames"			"Bias for Names"
+		"IME_BiasSpeech"		"Bias for Speech"
+		"IME_NoConversion"		"No Conversion"
+
+		"IME_0404"			"Chinese (Taiwan)"
+		"IME_0804"			"Chinese (PRC)"
+		"IME_0409"			"English (United States)"
+		"IME_0411"			"Japanese"
+		"IME_0412"			"Korean"
+		"IME_0419"			"Russian"
+		"IME_041e"			"Thai"
+
+		"IME_040c"			"French (Standard)"
+		"IME_0407"			"German (Standard)"
+		"IME_0410"			"Italian (Standard)"
+		"IME_040a"			"Spanish (Spain, Traditional Sort)"
+
+		"KBEditorTitle"			"Key Bindings Editor"
+		"KBEditorSave"			"OK"
+		"KBEditorCancel"		"Cancel"
+		"KBEditorRevert"		"Revert Changes"
+		"KBEditorUseDefaults"		"Use Defaults"
+		"KBEditorBindingName"		"Name"
+		"KBEditorBinding"		"Current Binding"
+		"KBEditorModifiers"		"Modifiers"
+		"KBEditorCommand"		"Command"
+		"KBEditorDescription"		"Description"
+		"KBEditor_SHIFT"		"Shift"
+		"KBEditor_CONTROL"		"Ctrl"
+		"KBEditor_ALT"			"Alt"
+
+		"KBHelpDialogTitle"		"Key Bindings Help"
+		"KBHelpEditBindings"		"Edit..."
+
+		"KBCustomBindingEdit"		"Custom Binding Properties"
+		"KBCustomBindingName"		"Binding Name"
+		"KBCustomBindingCommand"	"Command"
+
+		"FileOpenDialog_Col_Name"	"Name"
+		"FileOpenDialog_Col_Size"	"Size"
+		"FileOpenDialog_Col_Type"	"Type"
+		"FileOpenDialog_Col_DateModified" "Date Modified"
+		"FileOpenDialog_Col_DateCreated" "Date Created"
+		"FileOpenDialog_Col_Attributes"	"Attributes"
+		"FileOpenDialog_FileType_Folder" "File Folder"
+		"FileOpenDialog_ToolTip_Up"	"Up"
+		"FileOpenDialog_ToolTip_NewFolder" "New Folder"
+		"FileOpenDialog_NewFolder_InputTitle"  "New Folder"
+		"FileOpenDialog_NewFolderPrompt" "Name:"
+		"FileOpenDialog_NewFolder_DefaultName" "New Folder"
+		"FileOpenDialog_ToolTip_OpenInExplorerButton" "Open In Explorer"
+
+		"PerforceFileList_Col_Name"	"Name"
+		"PerforceFileList_Col_Size"	"Size"
+		"PerforceFileList_Col_Type"	"Type"
+		"PerforceFileList_Col_Attributes"	"Attributes"
+		"PerforceFileList_FileType_Folder"	"File Folder"
+		"PerforceFileList_ToolTip_Up"		"Up One Folder"
+		"PerforceFileList_Col_InPerforce"	"In Perforce"
+		"PerforceFileList_Col_Synched"		"Synched"
+		"PerforceFileList_Col_Checked_Out"	"Checked Out"
+
+		"AssetBuilder_FileNew"		"New..."
+		"AssetBuilder_FileOpen"		"Open..."
+		"AssetBuilder_FileSave"		"Save"
+		"AssetBuilder_FileSaveAs"	"Save As..."
+		"AssetBuilder_FileSaveAs"	"Save As..."
+		"AssetBuilder_AddSource"	"Add"
+		"AssetBuilder_RemoveSource"	"Remove"
+		"AssetBuilder_ApplyChanges"	"Apply"
+		"AssetBuilder_DuplicateSourceTitle"	"Duplicate source name!"
+		"AssetBuilder_DuplicateSourceText"	"This source already exists in the list of sources of this type!"
+		"AssetBuilder_CannotRenameSourceFiles"	"Invalid save file name!"
+		"AssetBuilder_CannotRenameSourceFilesText"	"Cannot compute the relative file name of some sources in this file!"
+		"AssetBuilder_Compile"		"Compile"
+		"AssetBuilder_Publish"		"Publish"
+		"AssetBuilder_AbortCompile"	"Abort"
+
+		"AssetPicker_Rescan"		"Rescan"
+
+		"SequencePicker_Defaults"	"Defaults"
+		"SequencePicker_RootMotion"	"Generate root motion"
+
+		"DmeSourceDCCFile_DuplicateSourceTitle"	"Duplicate DCC object name!"
+		"DmeSourceDCCFile_DuplicateSourceText"	"This DCC object already exists in the list of DCC objects!"
+
+		"DmeCombinationSystemEditor_GroupControls" "Group Controls"
+		"DmeCombinationSystemEditor_UngroupControls" "Ungroup Controls"
+		"DmeCombinationSystemEditor_StereoControl" "Stereo Control"
+		"DmeCombinationSystemEditor_EyelidControl" "Eyelid Control"
+		"DmeCombinationSystemEditor_RenameControl" "Rename Control..."
+		"DmeCombinationSystemEditor_DuplicateNameTitle" "Duplicate Control Name Specified!"
+		"DmeCombinationSystemEditor_DuplicateNameText" "Control names must be unique. Please enter a different control name."
+		"DmeCombinationSystemEditor_AddDominationRule" "Add Domination Rule"
+		"DmeCombinationSystemEditor_RemoveDominationRule" "Remove Domination Rule"
+		"DmeCombinationSystemEditor_DuplicateSuppressed" "Duplicate Suppressed"
+		"DmeCombinationSystemEditor_DuplicateDominators" "Duplicate Dominators"
+		"DmeCombinationSystemEditor_SelectDominators" "Select Dominators..."
+		"DmeCombinationSystemEditor_SelectSuppressed" "Select Suppressed..."
+		"DmeCombinationSystemEditor_MoveUp" "Move Up"
+		"DmeCombinationSystemEditor_MoveDown" "Move Down"
+		"DmeCombinationSystemEditor_ToggleWrinkleType" "Toggle Wrinkle Type"
+		"DmeCombinationSystemEditor_Import" "Import Combination Rules..."
+		"DmeCombinationSystemEditor_ImportDomination" "Import Domination Rules..."
+
+		"DmePresetGroupEditor_AddGroup" "Add Preset Group..."
+		"DmePresetGroupEditor_AddPhonemeGroup" "Add Phoneme Preset Group"
+		"DmePresetGroupEditor_RenameGroup" "Rename Preset Group..."
+		"DmePresetGroupEditor_RemoveGroup" "Remove Preset Group"
+		"DmePresetGroupEditor_ToggleVisibility" "Toggle Group Visibility"
+		"DmePresetGroupEditor_ToggleSharing" "Toggle Group Sharing"
+
+		"DmePresetGroupEditor_AddPreset" "Add Preset..."
+		"DmePresetGroupEditor_RenamePreset" "Rename Preset..."
+		"DmePresetGroupEditor_RemovePreset" "Remove Preset"
+		"DmePresetGroupEditor_MoveUp" "Move Up"
+		"DmePresetGroupEditor_MoveDown" "Move Down"
+		"DmePresetGroupEditor_ImportPresets" "Import Presets..."
+		"DmePresetGroupEditor_ImportPhonemes" "Import Phonemes..."
+		"DmePresetGroupEditor_ExportPresets" "Export Presets..."
+		"DmePresetGroupEditor_ExportPresetsToFaceposer" "Export Presets to .TXT..."
+		"DmePresetGroupEditor_ExportPresetsToExpression" "Export Presets to .VFE..."
+		"DmePresetGroupEditor_DuplicateNameTitle" "Duplicate Preset Group Name Specified!"
+		"DmePresetGroupEditor_DuplicateNameText" "Preset group names must be unique. Please enter a different group name."
+		"DmePresetGroupEditor_DuplicatePresetNameTitle" "Duplicate Preset Name Specified!"
+		"DmePresetGroupEditor_DuplicatePresetNameText" "Preset names must be unique. Please enter a different preset name."
+		"DmePresetGroupEditor_CannotRemovePresetGroupTitle" "Cannot Remove Preset Group!"
+		"DmePresetGroupEditor_CannotRemovePresetGroupText" "The procedural preset group cannot be removed."
+		"DmePresetGroupEditor_EditPresetRemapping" "Edit Preset Remapping..."
+		"DmePresetGroupEditor_RemoveDefaultControls" "Remove Default Controls"
+		"DmePresetGroupEditor_RemapPresets" "Remap Presets"
+
+		"DmePresetRemapPanel_SelectPreset" "Select Source Preset..."
+		"DmePresetRemapPanel_RemovePreset" "Clear Source Preset"
+
+		"Console_Title"		"Console"
+		"Console_Submit"	"Submit"
+
+	}
+}

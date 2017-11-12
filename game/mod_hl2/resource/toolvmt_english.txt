@@ -1,0 +1,14 @@
+﻿"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+"VMTNoFile"				"No material file loaded"
+"VMTProperties"			"Properties"
+"VMTPreview"			"Preview"
+"VMTShowFlags"			"Show Flags"
+"VMTShowToolParams"		"Show Tool Parameters"
+"VMTViewDefault"		"Default Layout"
+"VMTSetToDefault"		"Set Params To Default"
+} 
+}  

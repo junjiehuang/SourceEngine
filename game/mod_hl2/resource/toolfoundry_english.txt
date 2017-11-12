@@ -1,0 +1,17 @@
+﻿"lang" 
+{ 
+"Language" "English" 
+"Tokens" 
+{ 
+"FoundryNoFile"				"No .VMF loaded"
+"FoundryProperties"			"Entity Properties"
+"FoundryEntityReport"		"Entity Report"
+"FoundryDeleteObjects"		"Delete Objects?"
+"FoundryDeleteObjectsMsg"	"Are you sure you want to delete the selected objects?"
+"FoundryProperties"			"Properties"
+"FoundryEntityReport"		"Entity Report"
+"FoundryViewDefault"		"Default Layout"
+"FoundryReload"				"Reload map"
+"FoundryReloadFromSave"		"Reload from quicksave"
+} 
+}  
