@@ -27,12 +27,7 @@
 		"dedicated"	"bool"		// true if dedicated server
 		"password"	"bool"		// true if password protected
 	}
-
-	"server_changelevel_failed"
-	{
-		"levelname"	"string"	// The level name that failed changelevel
-	}
-
+	
 	"server_shutdown" 			// server shut down	
 	{
 		"reason"	"string"	// reason why server was shut down
@@ -67,22 +62,13 @@
 		"by"		"string"	// removed by...
 	}
 	
-	"player_connect"			// a new client connected - we should only really have server listeners for this, due to the IP being exposed
+	"player_connect"			// a new client connected
 	{
 		"name"		"string"	// player name		
 		"index"		"byte"		// player slot (entity index-1)
 		"userid"	"short"		// user ID on server (unique on server)
 		"networkid" "string" // player network (i.e steam) id
 		"address"	"string"	// ip:port
-		"bot"		"short"		// is a bot
-	}
-
-	"player_connect_client"		// a new client connected
-	{
-		"name"		"string"	// player name		
-		"index"		"byte"		// player slot (entity index-1)
-		"userid"	"short"		// user ID on server (unique on server)
-		"networkid" "string" // player network (i.e steam) id
 		"bot"		"short"		// is a bot
 	}
 	
